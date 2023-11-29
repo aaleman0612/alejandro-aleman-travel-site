@@ -1,0 +1,176 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hawaii-card {
+    background: url("../assets/Images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#iceland-card {
+    background: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#greece-card {
+    background: url(../assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-card {
+    height: 85vh;
+    font-size: 5rem;
+    width: 100vw;
+}
+
+.reco-text {
+    padding: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.daily-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.daily-card {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin: 2rem;
+    padding: 1rem;
+    height: 16rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+.info {
+    padding-left: 4rem;
+}
+
+.daily-info {
+    background-color: #FEFAF5;
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    
+}
+
+.days {
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+/* .days::after {
+    width: 80%;
+} */
+
+button {
+    background-color: #DB7A4E;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 10rem;
+    border-radius: 80px;
+    margin-left: 4rem;
+}
+
+.full-width-container {
+    background-color: #FEFAF5;
+}
+
+.app-container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.logo a {
+    color: #335576;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
+.nav a {
+    margin-left: 2rem;
+    color: black;
+
+}
+
+.active-nav {
+    padding-bottom: 10px;
+    border-bottom: 4px #DB7A4E solid;
+}
+
+.footer {
+    height: 8rem;
+    background-color: #FEFAF5;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: #335576;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.orange-text {
+    color: #DB7A4E;
+    font-weight: 200;
+    font-size: small;
+    margin-bottom: 0.75rem;
+}
+
+.footer-info {
+    color: #335576;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-hours {
+    display: flex;
+}
+
+.footer-hours .footer-stack:nth-last-child(-n+2)  {
+    margin-left: 2rem;
+}
+
+.socials img {
+    height: 2rem;
+}
+.socials a:not(:first-child) {
+    margin-left: 2rem; 
+}
